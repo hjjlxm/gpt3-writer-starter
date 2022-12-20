@@ -38,7 +38,7 @@ const onUserChangedText = (event) => {
       <div className="container">
         <div className="header">
           <div className="header-title">
-            <h1>Ask Lionel Messi something...</h1>
+            <h1>Ask Messi something...</h1>
           </div>
           <div className="header-subtitle">
             <h2>Write a message to Messi, ask him about anything (ex. what's your favorite food, what's your view on Mbappé etc).</h2>

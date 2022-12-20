@@ -6,7 +6,7 @@ const configuration = new Configuration({
 
 const openai = new OpenAIApi(configuration);
 const basePromptPrefix =
-`This is a chat with Lionel Messi, Argentine professional soccer player.`
+`This is a chat with Messi, Argentine professional soccer player.`
 const generateAction = async (req, res) => {
   // Run first prompt
   console.log(`API: ${basePromptPrefix}${req.body.userInput}`)
